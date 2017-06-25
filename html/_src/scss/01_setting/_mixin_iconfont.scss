@@ -1,0 +1,394 @@
+@mixin iconfont_default() {
+	font-family: "iconfont";
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-style: normal !important;
+	font-variant: normal;
+	font-weight: normal !important;
+	speak: none;
+	text-decoration: none !important;
+	text-transform: none;
+	color: $base_text_color;
+	line-height: $base_icon_line_height;
+	font-size: $base_icon_size;
+}
+
+
+
+@mixin mix_glyph--center-alignment($insert: before) {
+	&:#{$insert} {
+		@include iconfont_default();
+		content: "\EA01";
+	}
+}
+
+@mixin mix_glyph--clock($insert: before) {
+	&:#{$insert} {
+		@include iconfont_default();
+		content: "\EA02";
+	}
+}
+
+@mixin mix_glyph--cloud-computing($insert: before) {
+	&:#{$insert} {
+		@include iconfont_default();
+		content: "\EA03";
+	}
+}
+
+@mixin mix_glyph--compass($insert: before) {
+	&:#{$insert} {
+		@include iconfont_default();
+		content: "\EA04";
+	}
+}
+
+@mixin mix_glyph--computer($insert: before) {
+	&:#{$insert} {
+		@include iconfont_default();
+		content: "\EA05";
+	}
+}
+
+@mixin mix_glyph--cursor($insert: before) {
+	&:#{$insert} {
+		@include iconfont_default();
+		content: "\EA06";
+	}
+}
+
+@mixin mix_glyph--document-1($insert: before) {
+	&:#{$insert} {
+		@include iconfont_default();
+		content: "\EA07";
+	}
+}
+
+@mixin mix_glyph--document-2($insert: before) {
+	&:#{$insert} {
+		@include iconfont_default();
+		content: "\EA08";
+	}
+}
+
+@mixin mix_glyph--document($insert: before) {
+	&:#{$insert} {
+		@include iconfont_default();
+		content: "\EA09";
+	}
+}
+
+@mixin mix_glyph--download($insert: before) {
+	&:#{$insert} {
+		@include iconfont_default();
+		content: "\EA0A";
+	}
+}
+
+@mixin mix_glyph--earth-globe($insert: before) {
+	&:#{$insert} {
+		@include iconfont_default();
+		content: "\EA0B";
+	}
+}
+
+@mixin mix_glyph--email($insert: before) {
+	&:#{$insert} {
+		@include iconfont_default();
+		content: "\EA0C";
+	}
+}
+
+@mixin mix_glyph--film($insert: before) {
+	&:#{$insert} {
+		@include iconfont_default();
+		content: "\EA0D";
+	}
+}
+
+@mixin mix_glyph--folder($insert: before) {
+	&:#{$insert} {
+		@include iconfont_default();
+		content: "\EA0E";
+	}
+}
+
+@mixin mix_glyph--gamepad($insert: before) {
+	&:#{$insert} {
+		@include iconfont_default();
+		content: "\EA0F";
+	}
+}
+
+@mixin mix_glyph--group($insert: before) {
+	&:#{$insert} {
+		@include iconfont_default();
+		content: "\EA10";
+	}
+}
+
+@mixin mix_glyph--heart($insert: before) {
+	&:#{$insert} {
+		@include iconfont_default();
+		content: "\EA11";
+	}
+}
+
+@mixin mix_glyph--internet($insert: before) {
+	&:#{$insert} {
+		@include iconfont_default();
+		content: "\EA12";
+	}
+}
+
+@mixin mix_glyph--layers($insert: before) {
+	&:#{$insert} {
+		@include iconfont_default();
+		content: "\EA13";
+	}
+}
+
+@mixin mix_glyph--left-alignment($insert: before) {
+	&:#{$insert} {
+		@include iconfont_default();
+		content: "\EA14";
+	}
+}
+
+@mixin mix_glyph--light-bulb-1($insert: before) {
+	&:#{$insert} {
+		@include iconfont_default();
+		content: "\EA15";
+	}
+}
+
+@mixin mix_glyph--light-bulb($insert: before) {
+	&:#{$insert} {
+		@include iconfont_default();
+		content: "\EA16";
+	}
+}
+
+@mixin mix_glyph--link($insert: before) {
+	&:#{$insert} {
+		@include iconfont_default();
+		content: "\EA17";
+	}
+}
+
+@mixin mix_glyph--list($insert: before) {
+	&:#{$insert} {
+		@include iconfont_default();
+		content: "\EA18";
+	}
+}
+
+@mixin mix_glyph--mail($insert: before) {
+	&:#{$insert} {
+		@include iconfont_default();
+		content: "\EA19";
+	}
+}
+
+@mixin mix_glyph--microphone($insert: before) {
+	&:#{$insert} {
+		@include iconfont_default();
+		content: "\EA1A";
+	}
+}
+
+@mixin mix_glyph--notification($insert: before) {
+	&:#{$insert} {
+		@include iconfont_default();
+		content: "\EA1B";
+	}
+}
+
+@mixin mix_glyph--padlock($insert: before) {
+	&:#{$insert} {
+		@include iconfont_default();
+		content: "\EA1C";
+	}
+}
+
+@mixin mix_glyph--pencil($insert: before) {
+	&:#{$insert} {
+		@include iconfont_default();
+		content: "\EA1D";
+	}
+}
+
+@mixin mix_glyph--phone-book-1($insert: before) {
+	&:#{$insert} {
+		@include iconfont_default();
+		content: "\EA1E";
+	}
+}
+
+@mixin mix_glyph--phone-book($insert: before) {
+	&:#{$insert} {
+		@include iconfont_default();
+		content: "\EA1F";
+	}
+}
+
+@mixin mix_glyph--picture-1($insert: before) {
+	&:#{$insert} {
+		@include iconfont_default();
+		content: "\EA20";
+	}
+}
+
+@mixin mix_glyph--picture($insert: before) {
+	&:#{$insert} {
+		@include iconfont_default();
+		content: "\EA21";
+	}
+}
+
+@mixin mix_glyph--placeholder($insert: before) {
+	&:#{$insert} {
+		@include iconfont_default();
+		content: "\EA22";
+	}
+}
+
+@mixin mix_glyph--push-pin($insert: before) {
+	&:#{$insert} {
+		@include iconfont_default();
+		content: "\EA23";
+	}
+}
+
+@mixin mix_glyph--right-alignment($insert: before) {
+	&:#{$insert} {
+		@include iconfont_default();
+		content: "\EA24";
+	}
+}
+
+@mixin mix_glyph--settings($insert: before) {
+	&:#{$insert} {
+		@include iconfont_default();
+		content: "\EA25";
+	}
+}
+
+@mixin mix_glyph--share($insert: before) {
+	&:#{$insert} {
+		@include iconfont_default();
+		content: "\EA26";
+	}
+}
+
+@mixin mix_glyph--shield-1($insert: before) {
+	&:#{$insert} {
+		@include iconfont_default();
+		content: "\EA27";
+	}
+}
+
+@mixin mix_glyph--shield-2($insert: before) {
+	&:#{$insert} {
+		@include iconfont_default();
+		content: "\EA28";
+	}
+}
+
+@mixin mix_glyph--shield($insert: before) {
+	&:#{$insert} {
+		@include iconfont_default();
+		content: "\EA29";
+	}
+}
+
+@mixin mix_glyph--smartphone($insert: before) {
+	&:#{$insert} {
+		@include iconfont_default();
+		content: "\EA2A";
+	}
+}
+
+@mixin mix_glyph--speech-bubble-1($insert: before) {
+	&:#{$insert} {
+		@include iconfont_default();
+		content: "\EA2B";
+	}
+}
+
+@mixin mix_glyph--speech-bubble($insert: before) {
+	&:#{$insert} {
+		@include iconfont_default();
+		content: "\EA2C";
+	}
+}
+
+@mixin mix_glyph--tablet($insert: before) {
+	&:#{$insert} {
+		@include iconfont_default();
+		content: "\EA2D";
+	}
+}
+
+@mixin mix_glyph--unlock($insert: before) {
+	&:#{$insert} {
+		@include iconfont_default();
+		content: "\EA2E";
+	}
+}
+
+@mixin mix_glyph--upload($insert: before) {
+	&:#{$insert} {
+		@include iconfont_default();
+		content: "\EA2F";
+	}
+}
+
+@mixin mix_glyph--user-1($insert: before) {
+	&:#{$insert} {
+		@include iconfont_default();
+		content: "\EA30";
+	}
+}
+
+@mixin mix_glyph--user-2($insert: before) {
+	&:#{$insert} {
+		@include iconfont_default();
+		content: "\EA31";
+	}
+}
+
+@mixin mix_glyph--user-3($insert: before) {
+	&:#{$insert} {
+		@include iconfont_default();
+		content: "\EA32";
+	}
+}
+
+@mixin mix_glyph--user($insert: before) {
+	&:#{$insert} {
+		@include iconfont_default();
+		content: "\EA33";
+	}
+}
+
+@mixin mix_glyph--volume($insert: before) {
+	&:#{$insert} {
+		@include iconfont_default();
+		content: "\EA34";
+	}
+}
+
+@mixin mix_glyph--zoom-in($insert: before) {
+	&:#{$insert} {
+		@include iconfont_default();
+		content: "\EA35";
+	}
+}
+
+@mixin mix_glyph--zoom-out($insert: before) {
+	&:#{$insert} {
+		@include iconfont_default();
+		content: "\EA36";
+	}
+}
