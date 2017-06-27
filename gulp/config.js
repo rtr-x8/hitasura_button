@@ -1,6 +1,6 @@
 // root設定
 var project_root = require('path').join(__dirname, '../'),
-	site_root    = project_root + 'html/',
+	site_root    = project_root + 'docs/',
 	src_root     = site_root + '_src/';
 
 // 環境変数
@@ -34,7 +34,7 @@ var dst = {
 // project 全般設定
 var settings = {
 	extension: '.html',	// php or html
-	root_dir_name: 'html',
+	root_dir_name: 'docs',
 	site: {
 		name: 'サイト名',
 		url : 'url',
@@ -79,7 +79,7 @@ module.exports = {
 	connect_sync: {
 		opt: {
 			port: 3030,
-			base: project_root+'html',
+			base: project_root+'docs',
 			bin: php.bin,
 			ini: php.ini,
 			stdio: 'ignore'

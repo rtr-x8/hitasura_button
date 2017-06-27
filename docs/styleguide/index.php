@@ -16,51 +16,6 @@
 	<ul class="styleguide__navi_list">
 		<li class="styleguide__navi_item"><a href="./index.php">スタイルガイド - Overview</a></li>
 		
-		<li class="styleguide__navi_item"><a class='' href='bg.php'>
-			背景</a></li>
-		
-		<li class="styleguide__navi_item"><a class='' href='box.php'>
-			Box、装飾、table</a></li>
-		
-		<li class="styleguide__navi_item"><a class='' href='button.php'>
-			ボタン</a></li>
-		
-		<li class="styleguide__navi_item"><a class='' href='head.php'>
-			head</a></li>
-		
-		<li class="styleguide__navi_item"><a class='' href='helper.php'>
-			汎用クラス</a></li>
-		
-		<li class="styleguide__navi_item"><a class='' href='icon.php'>
-			アイコン</a></li>
-		
-		<li class="styleguide__navi_item"><a class='' href='iconfont.php'>
-			アイコンフォント</a></li>
-		
-		<li class="styleguide__navi_item"><a class='' href='includeParts.php'>
-			_includeParts</a></li>
-		
-		<li class="styleguide__navi_item"><a class='' href='pager.php'>
-			ページャー</a></li>
-		
-		<li class="styleguide__navi_item"><a class='' href='sprite-pc.php'>
-			スプライト [ pc ]</a></li>
-		
-		<li class="styleguide__navi_item"><a class='' href='sprite-sp.php'>
-			スプライト [ sp ]</a></li>
-		
-		<li class="styleguide__navi_item"><a class='' href='table.php'>
-			テーブル</a></li>
-		
-		<li class="styleguide__navi_item"><a class='' href='text.php'>
-			テキスト</a></li>
-		
-		<li class="styleguide__navi_item"><a class='' href='title.php'>
-			タイトルまとめ</a></li>
-		
-		<li class="styleguide__navi_item"><a class='' href='wrap.php'>
-			Box、装飾、table</a></li>
-		
 	</ul>
 </div>
 
