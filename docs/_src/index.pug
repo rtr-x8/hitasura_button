@@ -7,31 +7,88 @@ block content
 		var arr = [
 			{
 				// section01
-				section_title: 'ここにsectionのタイトルが入ります。1',
-				section_comment: 'ここにsectionのコメントが入ります。1',
+				section_title: 'aタグ単体のシンプルなやつ',
+				section_comment: 'p > a<br>議事要素は甘え',
 				btns: [
-					{comment: 'もしコメントがあれば書く。'},
-					{comment: 'もしコメントがあれば書く。'},
-					{comment: 'もしコメントがあれば書く。'},
+					{// 00
+						time: '2017/06/28',
+						comment: '標準過ぎてあくびが出る',
+						tags: ['background-color'],
+					},{
+						time: '2017/06/28',
+						comment: '当たり前だけど文字も薄れる',
+						tags: ['background-color'],
+					},{
+						time: '2017/06/28',
+						comment: 'lighten(), とかdarken()とかもあるよ',
+						tags: ['background-color'],
+					},{
+						time: '2017/06/28',
+						comment: 'んん？',
+						tags: ['background-position'],
+					},{
+						time: '2017/06/28',
+						comment: '使い時（笑）',
+						tags: ['background-size', 'background-position'],
+					},{
+						time: '2017/06/28',
+						comment: '',
+						tags: ['border', 'background'],
+					},{
+						time: '2017/06/28',
+						comment: 'こういう系はhtmlに画像置いたほうがやりやすい',
+						tags: ['background'],
+					},{
+						time: '2017/06/28',
+						comment: 'filter系は対応がまだ少ない',
+						tags: ['filter'],
+					},{
+						time: '2017/06/28',
+						comment: 'filter系は対応がまだ少ない',
+						tags: ['filter'],
+					},{ //10
+						time: '2017/06/28',
+						comment: 'filter系は対応がまだ少ない',
+						tags: ['filter'],
+					},{
+						time: '2017/06/28',
+						comment: 'filter系は対応がまだ少ない',
+						tags: ['filter'],
+					},{
+						time: '2017/06/28',
+						comment: 'filter系は対応がまだ少ない',
+						tags: ['filter'],
+					},{
+						time: '2017/06/28',
+						comment: 'filter系は対応がまだ少ない',
+						tags: ['filter'],
+					},{
+						time: '2017/06/28',
+						comment: 'filter系は対応がまだ少ない',
+						tags: ['filter'],
+					},{
+						time: '2017/06/28',
+						comment: '',
+						tags: ['drop-shadow'],
+					},{
+						time: '2017/06/28',
+						comment: '',
+						tags: ['drop-shadow'],
+					},{
+						time: '2017/06/28',
+						comment: '',
+						tags: [],
+					},{
+						time: '2017/06/28',
+						comment: '',
+						tags: [],
+					},
 				]
 			},{
 				// section01
-				section_title: 'ここにsectionのタイトルが入ります。2',
+				section_title: '議事要素に手を出す①',
 				section_comment: 'ここにsectionのコメントが入ります。2',
-				btns: [
-					{comment: 'もしコメントがあれば書く。'},
-					{comment: 'もしコメントがあれば書く。'},
-					{comment: 'もしコメントがあれば書く。'},
-				]
-			},{
-				// section01
-				section_title: 'ここにsectionのタイトルが入ります。3',
-				section_comment: 'ここにsectionのコメントが入ります。3',
-				btns: [
-					{comment: 'もしコメントがあれば書く。'},
-					{comment: 'もしコメントがあれば書く。'},
-					{comment: 'もしコメントがあれば書く。'},
-				]
+				btns: []
 			}
 		];
 	each section, section_index in arr
@@ -43,11 +100,16 @@ block content
 				each btn, btn_index in section.btns
 					- var btn_id = btn_index<10? '0'+btn_index: btn_index;
 					- var btn_id = 'id_' + sec_id + '_' + btn_id;
-					- var inc_path = 'scss/02_btns/' + btn_id + '.scss';
 					.block
+						span.block__time!=btn.time
+						span.block__id!=btn_id
 						.block__view(id=btn_id)
 							p: a(href='#') button
-						p.block__comment!=btn.comment
+						if(btn.comment)
+							p.block__comment!=btn.comment
 						.block__code
 							pre: code
-								include #{inc_path}
+								+btn_scss_code(btn_id)
+						ul.block__tag
+							each tag in btn.tags
+								li.block__tag-item!=tag

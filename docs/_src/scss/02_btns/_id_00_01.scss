@@ -1,0 +1,8 @@
+a {
+	opacity: 1;
+	transition: 300ms;
+	background-color: skyblue;
+	&:hover {
+		opacity: .5
+	}
+}

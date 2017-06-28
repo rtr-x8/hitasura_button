@@ -1,5 +1,5 @@
 {
-  "name": "work",
+  "name": "hitasura_btn",
   "version": "1.0.0",
   "main": "gulpfile.js",
   "dependencies": {
@@ -66,5 +66,8 @@
   "bugs": {
     "url": "https://github.com/rtr-x8/my_development_environment_for_wordpress/issues"
   },
-  "homepage": "https://github.com/rtr-x8/my_development_environment_for_wordpress#readme"
+  "homepage": "https://github.com/rtr-x8/my_development_environment_for_wordpress#readme",
+  "directories": {
+    "doc": "docs"
+  }
 }

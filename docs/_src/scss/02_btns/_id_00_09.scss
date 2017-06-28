@@ -1,0 +1,9 @@
+p {overflow: hidden;}
+a {
+	background: url('https://unsplash.it/300/50/?gravity=east') center center no-repeat;
+	background-size: cover;
+	transition: 300ms;
+	&:hover {
+		filter: contrast(150%);
+	}
+}

@@ -1,0 +1,10 @@
+a {
+	background: repeating-linear-gradient(-45deg, #444, #444 2%, #888 0, #888 4%);
+	background-size: 100% auto;
+	transition: 450ms;
+	background-position: 0 0;
+	&:hover {
+		background-position: 44.25% 0;
+		background-size: 5000% auto;
+	}
+}

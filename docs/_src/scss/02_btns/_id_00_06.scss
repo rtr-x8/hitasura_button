@@ -1,0 +1,12 @@
+a {
+	background:{
+		image: url('http://placehold.jp/24/cc9999/993333/300x800.png');
+		position: center center;
+		repeat: no-repeat;
+		size: 100% auto;
+	};
+	transition: 300ms;
+	&:hover {
+		background-size: 105% auto;
+	}
+}

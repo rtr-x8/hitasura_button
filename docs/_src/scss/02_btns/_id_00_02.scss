@@ -1,0 +1,7 @@
+a {
+	background-color: red;
+	transition: 300ms;
+	&:hover {
+		background-color: rgba(red, 0.5);
+	}
+}
