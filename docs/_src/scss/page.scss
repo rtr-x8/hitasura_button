@@ -48,7 +48,6 @@ h2 {
 }
 .block {
 	position: relative;
-	max-width: 25%;
 	&__wrapper {
 		margin-top: 2rem;
 		display: flex;
@@ -64,10 +63,10 @@ h2 {
 	border: $border_width solid #ddd;
 	margin: (0-$border_width) 0 0 (0-$border_width);
 	flex: 1 calc(100% / 1);
-	@media (min-width: 600px){flex: 1 calc(100% / 2)}
-	@media (min-width: 900px){flex: 1 calc(100% / 3)}
-	@media (min-width:1500px){flex: 1 calc(100% / 4)}
-	@media (min-width:1900px){flex: 1 calc(100% / 5)}
+	@media (min-width: 600px){flex: 1 calc(100% / 2); min-width: 50%}
+	@media (min-width: 900px){flex: 1 calc(100% / 3); min-width: 33.3333%}
+	@media (min-width:1500px){flex: 1 calc(100% / 4); min-width: 25%}
+	@media (min-width:1900px){flex: 1 calc(100% / 5); min-width: 20%}
 	&__time {
 		position: absolute;
 		top: 0;
