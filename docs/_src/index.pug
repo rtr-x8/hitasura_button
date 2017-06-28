@@ -3,10 +3,51 @@ include _mixin
 block vars
 block outerMain
 block content
-	
-	section
-		h2 タイトル
-		p 説明説明説明説明
-		.block__wrapper
-			- for(i = 0; i < 50; i++)
-				.block
+	-
+		var arr = [
+			{
+				// section01
+				section_title: 'ここにsectionのタイトルが入ります。1',
+				section_comment: 'ここにsectionのコメントが入ります。1',
+				btns: [
+					{comment: 'もしコメントがあれば書く。'},
+					{comment: 'もしコメントがあれば書く。'},
+					{comment: 'もしコメントがあれば書く。'},
+				]
+			},{
+				// section01
+				section_title: 'ここにsectionのタイトルが入ります。2',
+				section_comment: 'ここにsectionのコメントが入ります。2',
+				btns: [
+					{comment: 'もしコメントがあれば書く。'},
+					{comment: 'もしコメントがあれば書く。'},
+					{comment: 'もしコメントがあれば書く。'},
+				]
+			},{
+				// section01
+				section_title: 'ここにsectionのタイトルが入ります。3',
+				section_comment: 'ここにsectionのコメントが入ります。3',
+				btns: [
+					{comment: 'もしコメントがあれば書く。'},
+					{comment: 'もしコメントがあれば書く。'},
+					{comment: 'もしコメントがあれば書く。'},
+				]
+			}
+		];
+	each section, section_index in arr
+		- var sec_id = section_index<10? '0'+section_index: section_index;
+		section
+			h2!=section.section_title
+			p!=section.section_comment
+			.block__wrapper
+				each btn, btn_index in section.btns
+					- var btn_id = btn_index<10? '0'+btn_index: btn_index;
+					- var btn_id = 'id_' + sec_id + '_' + btn_id;
+					- var inc_path = 'scss/02_btns/' + btn_id + '.scss';
+					.block
+						.block__view(id=btn_id)
+							p: a(href='#') button
+						p.block__comment!=btn.comment
+						.block__code
+							pre: code
+								include #{inc_path}

@@ -1,0 +1,75 @@
+@import "01_setting/var";
+@import "01_setting/mixin";
+@import "01_setting/sprite";
+
+
+pre, code {
+    font-family: Consolas, 'Courier New', Courier, Monaco, monospace;
+    font-size: 1.2rem;
+    line-height: 1;
+    tab-size: 4;
+}
+pre {
+	background-color: #333;
+	padding: 1rem;
+	code {
+		color: #fff;
+	}
+}
+
+
+$border_width: 2px;
+$section_margtin: 100px;
+section {
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+section + section {
+	margin-top: $section_margtin;
+	padding-top: $section_margtin;
+	border-top: $border_width * 2 solid #ddd;
+}
+h1 {
+	font-size: 3rem;
+	padding: 1.5rem;
+}
+h2 {
+	font-size: 2.5rem;
+	padding-left: 1rem;
+	margin: 1rem 0px 2rem;
+	+ p {
+		padding-left:1rem;
+		font-size: 1.3rem;
+		letter-spacing: 0.1rem;
+		line-height: 1.5;
+	}
+}
+.block {
+	&__wrapper {
+		margin-top: 2rem;
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: flex-start;
+		&:after {
+			display: block;clear: both;content: '';
+		}
+	}
+	box-sizing: border-box;
+	float: left;
+	padding: 2rem;
+	border: $border_width solid #ddd;
+	margin: (0-$border_width) 0 0 (0-$border_width);
+	flex: 1 calc(100% / 1);
+	@media (min-width: 600px){flex: 1 calc(100% / 2)}
+	@media (min-width: 900px){flex: 1 calc(100% / 3)}
+	@media (min-width:1500px){flex: 1 calc(100% / 4)}
+	@media (min-width:1900px){flex: 1 calc(100% / 5)}
+	&__view {
+		margin-bottom: 2rem;
+	}
+	&__comment {
+		font-size: 1.2rem;
+		line-height: 1.3;
+		margin-bottom: 1rem;
+	}
+}
