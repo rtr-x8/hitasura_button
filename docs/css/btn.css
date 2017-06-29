@@ -5,13 +5,13 @@ a{display:block;width:80%;text-decoration:none;text-align:center;padding:1.7rem 
 #id_00_01 a:hover{opacity:.5}
 #id_00_02 a{background-color:red;-webkit-transition:.3s;transition:.3s}
 #id_00_02 a:hover{background-color:rgba(255,0,0,.5)}
-#id_00_03 a{background-image:-webkit-linear-gradient(left,transparent 50%,#001e4b 50%);background-image:linear-gradient(to right,transparent 50%,#001e4b 50%);background-size:200% auto;background-position:0 0;-webkit-transition:background .3s ease 0s,color .3s ease .3s;transition:background .3s ease 0s,color .3s ease .3s}
-#id_00_03 a:hover{background-position:-100% 0;color:#fff}
+#id_00_03 a{background-image:-webkit-linear-gradient(left,transparent 50%,#001e4b 50%);background-image:linear-gradient(to right,transparent 50%,#001e4b 50%);background-size:210% auto;background-position:0 0;-webkit-transition:background .3s ease 0s,color .3s ease .3s;transition:background .3s ease 0s,color .3s ease .3s}
+#id_00_03 a:hover{background-position:-95% 0;color:#fff}
 #id_00_04 a{background:-webkit-repeating-linear-gradient(135deg,#444,#444 2%,#888 0,#888 4%);background:repeating-linear-gradient(-45deg,#444,#444 2%,#888 0,#888 4%);background-size:100% auto;-webkit-transition:450ms;transition:450ms;background-position:0 0}
 #id_00_04 a:hover{background-position:44.25% 0;background-size:5000% auto}
 #id_00_05 a{border:2px solid #00f;background-image:-webkit-linear-gradient(left,transparent 50%,#00f 50%);background-image:linear-gradient(to right,transparent 50%,#00f 50%);background-size:210% auto;background-position:97% 0;-webkit-transition:.3s;transition:.3s}
 #id_00_05 a:hover{background-position:0 0}
-#id_00_06 a{background-image:url(http://placehold.jp/24/cc9999/993333/300x800.png);background-position:center center;background-repeat:no-repeat;background-size:100% auto;-webkit-transition:.3s;transition:.3s}
+#id_00_06 a{background-image:url(https://unsplash.it/300/50/?gravity=east);background-position:center center;background-repeat:no-repeat;background-size:100% auto;-webkit-transition:.3s;transition:.3s}
 #id_00_06 a:hover{background-size:105% auto}
 #id_00_07 p{overflow:hidden}
 #id_00_07 a{background:url(https://unsplash.it/300/50/?gravity=east) center center no-repeat;background-size:cover;-webkit-transition:.3s;transition:.3s}
@@ -35,4 +35,14 @@ a{display:block;width:80%;text-decoration:none;text-align:center;padding:1.7rem 
 #id_00_14 a:hover{box-shadow:0 0 5px 5px rgba(0,0,0,.3)}
 #id_00_15 a{background:url(https://unsplash.it/300/50/?gravity=east) center center no-repeat;background-size:cover;-webkit-transition:.3s;transition:.3s}
 #id_00_15 a:hover{box-shadow:inset 0 0 5px 5px rgba(0,0,0,.3)}
+#id_00_16 a{text-shadow:0 0 0 rgba(0,0,0,.5);-webkit-transition:.3s;transition:.3s}
+#id_00_16 a:hover{text-shadow:10px 10px 0 rgba(0,0,0,.5)}
+#id_00_17 a{text-shadow:0 0 0 rgba(0,0,0,.5);-webkit-transition:.3s;transition:.3s}
+#id_00_17 a:hover{color:#fff;text-shadow:4px 0 8px rgba(0,0,0,.5),4px 4px 8px rgba(0,0,0,.5),0 4px 8px rgba(0,0,0,.5),-4px 4px 8px rgba(0,0,0,.5),-4px 0 8px rgba(0,0,0,.5),-4px -4px 8px rgba(0,0,0,.5),0 -4px 8px rgba(0,0,0,.5),-4px 0 8px rgba(0,0,0,.5)}
+#id_00_18 a{border:1px solid #000;border-bottom-width:3px}
+#id_00_18 a:hover{-webkit-transform:translateY(3px);-ms-transform:translateY(3px);transform:translateY(3px);margin-top:2px;border-bottom-width:1px}
+#id_00_19 a{border:1px solid #333;-webkit-transition:.3s;transition:.3s}
+#id_00_19 a:hover{border-radius:25px}
+#id_00_20 a{letter-spacing:.1em;-webkit-transition:.3s;transition:.3s}
+#id_00_20 a:hover{letter-spacing:1em;text-indent:1em}
 /*# sourceMappingURL=maps/btn.css.map */

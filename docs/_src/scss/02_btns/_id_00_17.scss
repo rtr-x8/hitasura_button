@@ -1,0 +1,15 @@
+a {
+	text-shadow: 0 0 0 rgba(#000, 0.5);
+	transition: 300ms;
+	&:hover {
+		color: #fff;
+		text-shadow: 4px    0 8px rgba(#000, 0.5),
+					 4px  4px 8px rgba(#000, 0.5),
+					   0  4px 8px rgba(#000, 0.5),
+					-4px  4px 8px rgba(#000, 0.5),
+					-4px    0 8px rgba(#000, 0.5),
+					-4px -4px 8px rgba(#000, 0.5),
+					   0 -4px 8px rgba(#000, 0.5),
+					-4px    0 8px rgba(#000, 0.5);
+	}
+}

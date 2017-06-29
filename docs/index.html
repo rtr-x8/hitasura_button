@@ -3,194 +3,132 @@
 <head>
 	<meta charset="utf-8">
 	<title> </title>
-	<meta name="viewport"
-							content="width=device-width,user-scalable=no">
-		<meta name="description"
-								content="CSSでたくさんのボタンを作りました">
-			<meta name="keywords"
-									content="css,ボタン,アニメーション">
-				<link rel="stylesheet"
-										href="css/reset.css">
-					<link rel="stylesheet"
-											href="css/page.css">
-						<link rel="stylesheet"
-												href="css/btn.css">
-							<link rel="stylesheet"
-													href="//fonts.googleapis.com/earlyaccess/notosansjapanese.css">
-								<link rel="apple-touch-icon"
-														sizes="57x57"
-														href="/img/favicons/apple-touch-icon-57x57.png">
-									<link rel="apple-touch-icon"
-															sizes="60x60"
-															href="/img/favicons/apple-touch-icon-60x60.png">
-										<link rel="apple-touch-icon"
-																sizes="72x72"
-																href="/img/favicons/apple-touch-icon-72x72.png">
-											<link rel="apple-touch-icon"
-																	sizes="76x76"
-																	href="/img/favicons/apple-touch-icon-76x76.png">
-												<link rel="apple-touch-icon"
-																		sizes="114x114"
-																		href="/img/favicons/apple-touch-icon-114x114.png">
-													<link rel="apple-touch-icon"
-																			sizes="120x120"
-																			href="/img/favicons/apple-touch-icon-120x120.png">
-														<link rel="apple-touch-icon"
-																				sizes="144x144"
-																				href="/img/favicons/apple-touch-icon-144x144.png">
-															<link rel="apple-touch-icon"
-																					sizes="152x152"
-																					href="/img/favicons/apple-touch-icon-152x152.png">
-																<link rel="apple-touch-icon"
-																						sizes="180x180"
-																						href="/img/favicons/apple-touch-icon-180x180.png">
-																	<meta name="apple-mobile-web-app-capable"
-																							content="yes">
-																		<meta name="apple-mobile-web-app-status-bar-style"
-																								content="black-translucent">
-																			<meta name="apple-mobile-web-app-title"
-																									content="&#x30B5;&#x30A4;&#x30C8;&#x540D;">
-																				<link rel="icon"
-																										type="image/png"
-																										sizes="228x228"
-																										href="/img/favicons/coast-228x228.png">
-																					<meta name="msapplication-TileColor"
-																											content="#fff">
-																						<meta name="msapplication-TileImage"
-																												content="/img/favicons/mstile-144x144.png">
-																							<meta name="msapplication-config"
-																													content="/img/favicons/browserconfig.xml">
-																								<link rel="icon"
-																														type="image/png"
-																														sizes="32x32"
-																														href="/img/favicons/favicon-32x32.png">
-																									<link rel="icon"
-																															type="image/png"
-																															sizes="192x192"
-																															href="/img/favicons/android-chrome-192x192.png">
-																										<link rel="icon"
-																																type="image/png"
-																																sizes="16x16"
-																																href="/img/favicons/favicon-16x16.png">
-																											<link rel="shortcut icon"
-																																	href="/img/favicons/favicon.ico">
-																												<!--[if lt IE 9]><script src="/js/html5shiv.js"></script><![endif]-->
-																												<!--[if lte IE 9]><script>jQuery(function($) {$("*").removeClass (function (index, css) {
+	<meta name="viewport" content="width=device-width,user-scalable=no">
+	<meta name="description" content="CSSでたくさんのボタンを作りました">
+	<meta name="keywords" content="css,ボタン,アニメーション">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/page.css">
+	<link rel="stylesheet" href="css/btn.css">
+	<link rel="stylesheet" href="//fonts.googleapis.com/earlyaccess/notosansjapanese.css">
+	<link rel="apple-touch-icon" sizes="57x57" href="/img/favicons/apple-touch-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/img/favicons/apple-touch-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/img/favicons/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/img/favicons/apple-touch-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/img/favicons/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/img/favicons/apple-touch-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/img/favicons/apple-touch-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/img/favicons/apple-touch-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/img/favicons/apple-touch-icon-180x180.png">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<meta name="apple-mobile-web-app-title" content="&#x30B5;&#x30A4;&#x30C8;&#x540D;">
+	<link rel="icon" type="image/png" sizes="228x228" href="/img/favicons/coast-228x228.png">
+	<meta name="msapplication-TileColor" content="#fff">
+	<meta name="msapplication-TileImage" content="/img/favicons/mstile-144x144.png">
+	<meta name="msapplication-config" content="/img/favicons/browserconfig.xml">
+	<link rel="icon" type="image/png" sizes="32x32" href="/img/favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="/img/favicons/android-chrome-192x192.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/img/favicons/favicon-16x16.png">
+	<link rel="shortcut icon" href="/img/favicons/favicon.ico">
+	<!--[if lt IE 9]><script src="/js/html5shiv.js"></script><![endif]-->
+	<!--[if lte IE 9]><script>jQuery(function($) {$("*").removeClass (function (index, css) {
 	return (css.match (/c3_\S+/g) || []).join(' ');
 });});</script><![endif]-->
 </head>
 <body>
 	<div id="loader"></div>
 	<div id="wrapper">
-		<header class="cf"
-										id="header"
-										role="banner"
-										itemscope
-										itemtype="http://schema.org/WPHeader">
+		<header class="cf" id="header" role="banner" itemscope itemtype="http://schema.org/WPHeader">
 			<div class="c_wrap01">
 				<h1>ひたすらボタン</h1>
 			</div>
-			</header>
-			<!-- /header#header-->
-			<div class="contents">
-				<div id="main">
-					<main role="main">
-						<section>
-							<h2>aタグ単体のシンプルなやつ</h2>
-							<p>p > a<br>議事要素は甘え</p>
-							<div class="block__wrapper">
-								<div class="block"><span class="block__time">2017/06/28</span><span class="block__id">id_00_00</span>
-									<div class="block__view"
-														id="id_00_00">
-										<p><a href="#">button</a></p>
+		</header>
+		<!-- /header#header-->
+		<div class="contents">
+			<div id="main">
+				<main role="main">
+					<section>
+						<h2>aタグ単体のシンプルなやつ</h2>
+						<p>p > a<br>議事要素は甘え</p>
+						<div class="block__wrapper">
+							<div class="block"><span class="block__time">2017/06/28</span><span class="block__id">id_00_00</span>
+								<div class="block__view" id="id_00_00">
+									<p><a href="#">button</a></p>
 								</div>
 								<p class="block__comment">標準過ぎてあくびが出る</p>
-								<div class="block__code">
-									<pre><code>a {
+								<div class="block__code"><pre><code>a {
 	background-color: red;
 	transition: 300ms;
 	&:hover {
 		background-color: blue;
 	}
-}</code></pre>
-								</div>
+}</code></pre></div>
 								<ul class="block__tag">
 									<li class="block__tag-item">background-color</li>
 								</ul>
 							</div>
 							<div class="block"><span class="block__time">2017/06/28</span><span class="block__id">id_00_01</span>
-								<div class="block__view"
-													id="id_00_01">
+								<div class="block__view" id="id_00_01">
 									<p><a href="#">button</a></p>
-							</div>
-							<p class="block__comment">当たり前だけど文字も薄れる</p>
-							<div class="block__code">
-								<pre><code>a {
+								</div>
+								<p class="block__comment">当たり前だけど文字も薄れる</p>
+								<div class="block__code"><pre><code>a {
 	opacity: 1;
 	transition: 300ms;
 	background-color: skyblue;
 	&:hover {
 		opacity: .5
 	}
-}</code></pre>
+}</code></pre></div>
+								<ul class="block__tag">
+									<li class="block__tag-item">background-color</li>
+								</ul>
 							</div>
-							<ul class="block__tag">
-								<li class="block__tag-item">background-color</li>
-							</ul>
-				</div>
-				<div class="block"><span class="block__time">2017/06/28</span><span class="block__id">id_00_02</span>
-					<div class="block__view"
-										id="id_00_02">
-						<p><a href="#">button</a></p>
-				</div>
-				<p class="block__comment">lighten(), とかdarken()とかもあるよ</p>
-				<div class="block__code">
-					<pre><code>a {
+							<div class="block"><span class="block__time">2017/06/28</span><span class="block__id">id_00_02</span>
+								<div class="block__view" id="id_00_02">
+									<p><a href="#">button</a></p>
+								</div>
+								<p class="block__comment">lighten(), とかdarken()とかもあるよ</p>
+								<div class="block__code"><pre><code>a {
 	background-color: red;
 	transition: 300ms;
 	&:hover {
 		background-color: rgba(red, 0.5);
 	}
-}</code></pre>
-				</div>
-				<ul class="block__tag">
-					<li class="block__tag-item">background-color</li>
-				</ul>
-			</div>
-			<div class="block"><span class="block__time">2017/06/28</span><span class="block__id">id_00_03</span>
-				<div class="block__view"
-									id="id_00_03">
-					<p><a href="#">button</a></p>
-			</div>
-			<p class="block__comment">んん？</p>
-			<div class="block__code">
-				<pre><code>a {
+}</code></pre></div>
+								<ul class="block__tag">
+									<li class="block__tag-item">background-color</li>
+								</ul>
+							</div>
+							<div class="block"><span class="block__time">2017/06/28</span><span class="block__id">id_00_03</span>
+								<div class="block__view" id="id_00_03">
+									<p><a href="#">button</a></p>
+								</div>
+								<p class="block__comment">んん？</p>
+								<div class="block__code"><pre><code>a {
 	background: {
 		image: linear-gradient(to right,transparent 50%,#001e4b 50%);
-		size: 200% auto;
+		size: 210% auto;
 		position: 0 0;
 	}
 	transition: 
 		background 300ms ease 0ms,
 		color      300ms ease 300ms;
 	&:hover {
-		background-position: -100% 0;
+		background-position: -95% 0;
 		color: #fff;
 	}
-}</code></pre>
-			</div>
-			<ul class="block__tag">
-				<li class="block__tag-item">background-position</li>
-			</ul>
-	</div>
-	<div class="block"><span class="block__time">2017/06/28</span><span class="block__id">id_00_04</span>
-		<div class="block__view"
-							id="id_00_04">
-			<p><a href="#">button</a></p>
-	</div>
-	<p class="block__comment">使い時（笑）</p>
-	<div class="block__code">
-		<pre><code>a {
+}</code></pre></div>
+								<ul class="block__tag">
+									<li class="block__tag-item">background-position</li>
+								</ul>
+							</div>
+							<div class="block"><span class="block__time">2017/06/28</span><span class="block__id">id_00_04</span>
+								<div class="block__view" id="id_00_04">
+									<p><a href="#">button</a></p>
+								</div>
+								<p class="block__comment">使い時（笑）</p>
+								<div class="block__code"><pre><code>a {
 	background: repeating-linear-gradient(-45deg, #444, #444 2%, #888 0, #888 4%);
 	background-size: 100% auto;
 	transition: 450ms;
@@ -199,20 +137,17 @@
 		background-position: 44.25% 0;
 		background-size: 5000% auto;
 	}
-}</code></pre>
-	</div>
-	<ul class="block__tag">
-		<li class="block__tag-item">background-size</li>
-		<li class="block__tag-item">background-position</li>
-	</ul>
-	</div>
-	<div class="block"><span class="block__time">2017/06/28</span><span class="block__id">id_00_05</span>
-		<div class="block__view"
-							id="id_00_05">
-			<p><a href="#">button</a></p>
-	</div>
-	<div class="block__code">
-		<pre><code>a {
+}</code></pre></div>
+								<ul class="block__tag">
+									<li class="block__tag-item">background-size</li>
+									<li class="block__tag-item">background-position</li>
+								</ul>
+							</div>
+							<div class="block"><span class="block__time">2017/06/28</span><span class="block__id">id_00_05</span>
+								<div class="block__view" id="id_00_05">
+									<p><a href="#">button</a></p>
+								</div>
+								<div class="block__code"><pre><code>a {
 	border: 2px solid  blue;
 	background: {
 		image: linear-gradient(to right,transparent 50%, blue 50%);
@@ -223,23 +158,20 @@
 	&:hover {
 		background-position: 0 0;
 	}
-}</code></pre>
-	</div>
-	<ul class="block__tag">
-		<li class="block__tag-item">border</li>
-		<li class="block__tag-item">background</li>
-	</ul>
-	</div>
-	<div class="block"><span class="block__time">2017/06/28</span><span class="block__id">id_00_06</span>
-		<div class="block__view"
-							id="id_00_06">
-			<p><a href="#">button</a></p>
-	</div>
-	<p class="block__comment">こういう系はhtmlに画像置いたほうがやりやすい</p>
-	<div class="block__code">
-		<pre><code>a {
+}</code></pre></div>
+								<ul class="block__tag">
+									<li class="block__tag-item">border</li>
+									<li class="block__tag-item">background</li>
+								</ul>
+							</div>
+							<div class="block"><span class="block__time">2017/06/28</span><span class="block__id">id_00_06</span>
+								<div class="block__view" id="id_00_06">
+									<p><a href="#">button</a></p>
+								</div>
+								<p class="block__comment">こういう系はhtmlに画像置いたほうがやりやすい</p>
+								<div class="block__code"><pre><code>a {
 	background:{
-		image: url('http://placehold.jp/24/cc9999/993333/300x800.png');
+		image: url('https://unsplash.it/300/50/?gravity=east');
 		position: center center;
 		repeat: no-repeat;
 		size: 100% auto;
@@ -248,20 +180,17 @@
 	&:hover {
 		background-size: 105% auto;
 	}
-}</code></pre>
-	</div>
-	<ul class="block__tag">
-		<li class="block__tag-item">background</li>
-	</ul>
-	</div>
-	<div class="block"><span class="block__time">2017/06/28</span><span class="block__id">id_00_07</span>
-		<div class="block__view"
-							id="id_00_07">
-			<p><a href="#">button</a></p>
-	</div>
-	<p class="block__comment">filter系は対応がまだ少ない</p>
-	<div class="block__code">
-		<pre><code>p {overflow: hidden;}
+}</code></pre></div>
+								<ul class="block__tag">
+									<li class="block__tag-item">background</li>
+								</ul>
+							</div>
+							<div class="block"><span class="block__time">2017/06/28</span><span class="block__id">id_00_07</span>
+								<div class="block__view" id="id_00_07">
+									<p><a href="#">button</a></p>
+								</div>
+								<p class="block__comment">filter系は対応がまだ少ない</p>
+								<div class="block__code"><pre><code>p {overflow: hidden;}
 a {
 	background: url('https://unsplash.it/300/50/?gravity=east') center center no-repeat;
 	background-size: cover;
@@ -269,20 +198,17 @@ a {
 	&:hover {
 		filter: blur(2px);
 	}
-}</code></pre>
-	</div>
-	<ul class="block__tag">
-		<li class="block__tag-item">filter</li>
-	</ul>
-	</div>
-	<div class="block"><span class="block__time">2017/06/28</span><span class="block__id">id_00_08</span>
-		<div class="block__view"
-							id="id_00_08">
-			<p><a href="#">button</a></p>
-	</div>
-	<p class="block__comment">filter系は対応がまだ少ない</p>
-	<div class="block__code">
-		<pre><code>p {overflow: hidden;}
+}</code></pre></div>
+								<ul class="block__tag">
+									<li class="block__tag-item">filter</li>
+								</ul>
+							</div>
+							<div class="block"><span class="block__time">2017/06/28</span><span class="block__id">id_00_08</span>
+								<div class="block__view" id="id_00_08">
+									<p><a href="#">button</a></p>
+								</div>
+								<p class="block__comment">filter系は対応がまだ少ない</p>
+								<div class="block__code"><pre><code>p {overflow: hidden;}
 a {
 	background: url('https://unsplash.it/300/50/?gravity=east') center center no-repeat;
 	background-size: cover;
@@ -290,20 +216,17 @@ a {
 	&:hover {
 		filter: invert(75%);
 	}
-}</code></pre>
-	</div>
-	<ul class="block__tag">
-		<li class="block__tag-item">filter</li>
-	</ul>
-	</div>
-	<div class="block"><span class="block__time">2017/06/28</span><span class="block__id">id_00_09</span>
-		<div class="block__view"
-							id="id_00_09">
-			<p><a href="#">button</a></p>
-	</div>
-	<p class="block__comment">filter系は対応がまだ少ない</p>
-	<div class="block__code">
-		<pre><code>p {overflow: hidden;}
+}</code></pre></div>
+								<ul class="block__tag">
+									<li class="block__tag-item">filter</li>
+								</ul>
+							</div>
+							<div class="block"><span class="block__time">2017/06/28</span><span class="block__id">id_00_09</span>
+								<div class="block__view" id="id_00_09">
+									<p><a href="#">button</a></p>
+								</div>
+								<p class="block__comment">filter系は対応がまだ少ない</p>
+								<div class="block__code"><pre><code>p {overflow: hidden;}
 a {
 	background: url('https://unsplash.it/300/50/?gravity=east') center center no-repeat;
 	background-size: cover;
@@ -311,20 +234,17 @@ a {
 	&:hover {
 		filter: contrast(150%);
 	}
-}</code></pre>
-	</div>
-	<ul class="block__tag">
-		<li class="block__tag-item">filter</li>
-	</ul>
-	</div>
-	<div class="block"><span class="block__time">2017/06/28</span><span class="block__id">id_00_10</span>
-		<div class="block__view"
-							id="id_00_10">
-			<p><a href="#">button</a></p>
-	</div>
-	<p class="block__comment">filter系は対応がまだ少ない</p>
-	<div class="block__code">
-		<pre><code>p {overflow: hidden;}
+}</code></pre></div>
+								<ul class="block__tag">
+									<li class="block__tag-item">filter</li>
+								</ul>
+							</div>
+							<div class="block"><span class="block__time">2017/06/28</span><span class="block__id">id_00_10</span>
+								<div class="block__view" id="id_00_10">
+									<p><a href="#">button</a></p>
+								</div>
+								<p class="block__comment">filter系は対応がまだ少ない</p>
+								<div class="block__code"><pre><code>p {overflow: hidden;}
 a {
 	background: url('https://unsplash.it/300/50/?gravity=east') center center no-repeat;
 	background-size: cover;
@@ -332,155 +252,205 @@ a {
 	&:hover {
 		filter: brightness(1.2);
 	}
-}</code></pre>
-	</div>
-	<ul class="block__tag">
-		<li class="block__tag-item">filter</li>
-	</ul>
-	</div>
-	<div class="block"><span class="block__time">2017/06/28</span><span class="block__id">id_00_11</span>
-		<div class="block__view"
-							id="id_00_11">
-			<p><a href="#">button</a></p>
-	</div>
-	<p class="block__comment">filter系は対応がまだ少ない</p>
-	<div class="block__code">
-		<pre><code>a {
+}</code></pre></div>
+								<ul class="block__tag">
+									<li class="block__tag-item">filter</li>
+								</ul>
+							</div>
+							<div class="block"><span class="block__time">2017/06/28</span><span class="block__id">id_00_11</span>
+								<div class="block__view" id="id_00_11">
+									<p><a href="#">button</a></p>
+								</div>
+								<p class="block__comment">filter系は対応がまだ少ない</p>
+								<div class="block__code"><pre><code>a {
 	background: url('https://unsplash.it/300/50/?gravity=east') center center no-repeat;
 	background-size: cover;
 	transition: 300ms;
 	&:hover {
 		filter: grayscale(50%);
 	}
-}</code></pre>
-	</div>
-	<ul class="block__tag">
-		<li class="block__tag-item">filter</li>
-	</ul>
-	</div>
-	<div class="block"><span class="block__time">2017/06/28</span><span class="block__id">id_00_12</span>
-		<div class="block__view"
-							id="id_00_12">
-			<p><a href="#">button</a></p>
-	</div>
-	<p class="block__comment">filter系は対応がまだ少ない</p>
-	<div class="block__code">
-		<pre><code>a {
+}</code></pre></div>
+								<ul class="block__tag">
+									<li class="block__tag-item">filter</li>
+								</ul>
+							</div>
+							<div class="block"><span class="block__time">2017/06/28</span><span class="block__id">id_00_12</span>
+								<div class="block__view" id="id_00_12">
+									<p><a href="#">button</a></p>
+								</div>
+								<p class="block__comment">filter系は対応がまだ少ない</p>
+								<div class="block__code"><pre><code>a {
 	background: url('https://unsplash.it/300/50/?gravity=east') center center no-repeat;
 	background-size: cover;
 	transition: 300ms;
 	&:hover {
 		filter: hue-rotate(150deg);
 	}
-}</code></pre>
-	</div>
-	<ul class="block__tag">
-		<li class="block__tag-item">filter</li>
-	</ul>
-	</div>
-	<div class="block"><span class="block__time">2017/06/28</span><span class="block__id">id_00_13</span>
-		<div class="block__view"
-							id="id_00_13">
-			<p><a href="#">button</a></p>
-	</div>
-	<p class="block__comment">filter系は対応がまだ少ない</p>
-	<div class="block__code">
-		<pre><code>a {
+}</code></pre></div>
+								<ul class="block__tag">
+									<li class="block__tag-item">filter</li>
+								</ul>
+							</div>
+							<div class="block"><span class="block__time">2017/06/28</span><span class="block__id">id_00_13</span>
+								<div class="block__view" id="id_00_13">
+									<p><a href="#">button</a></p>
+								</div>
+								<p class="block__comment">filter系は対応がまだ少ない</p>
+								<div class="block__code"><pre><code>a {
 	background: url('https://unsplash.it/300/50/?gravity=east') center center no-repeat;
 	background-size: cover;
 	transition: 300ms;
 	&:hover {
 		filter: sepia(60%);
 	}
-}</code></pre>
-	</div>
-	<ul class="block__tag">
-		<li class="block__tag-item">filter</li>
-	</ul>
-	</div>
-	<div class="block"><span class="block__time">2017/06/28</span><span class="block__id">id_00_14</span>
-		<div class="block__view"
-							id="id_00_14">
-			<p><a href="#">button</a></p>
-	</div>
-	<div class="block__code">
-		<pre><code>a {
+}</code></pre></div>
+								<ul class="block__tag">
+									<li class="block__tag-item">filter</li>
+								</ul>
+							</div>
+							<div class="block"><span class="block__time">2017/06/28</span><span class="block__id">id_00_14</span>
+								<div class="block__view" id="id_00_14">
+									<p><a href="#">button</a></p>
+								</div>
+								<div class="block__code"><pre><code>a {
 	background: url('https://unsplash.it/300/50/?gravity=east') center center no-repeat;
 	background-size: cover;
 	transition: 300ms;
 	&:hover {
 		box-shadow: 0 0 5px 5px rgba(#000, 0.3)
 	}
-}</code></pre>
-	</div>
-	<ul class="block__tag">
-		<li class="block__tag-item">drop-shadow</li>
-	</ul>
-	</div>
-	<div class="block"><span class="block__time">2017/06/28</span><span class="block__id">id_00_15</span>
-		<div class="block__view"
-							id="id_00_15">
-			<p><a href="#">button</a></p>
-	</div>
-	<div class="block__code">
-		<pre><code>a {
+}</code></pre></div>
+								<ul class="block__tag">
+									<li class="block__tag-item">drop-shadow</li>
+								</ul>
+							</div>
+							<div class="block"><span class="block__time">2017/06/28</span><span class="block__id">id_00_15</span>
+								<div class="block__view" id="id_00_15">
+									<p><a href="#">button</a></p>
+								</div>
+								<div class="block__code"><pre><code>a {
 	background: url('https://unsplash.it/300/50/?gravity=east') center center no-repeat;
 	background-size: cover;
 	transition: 300ms;
 	&:hover {
 		box-shadow: inset 0 0 5px 5px rgba(#000, 0.3)
 	}
-}</code></pre>
-	</div>
-	<ul class="block__tag">
-		<li class="block__tag-item">drop-shadow</li>
-	</ul>
-	</div>
-	<div class="block"><span class="block__time">2017/06/28</span><span class="block__id">id_00_16</span>
-		<div class="block__view"
-							id="id_00_16">
-			<p><a href="#">button</a></p>
-	</div>
-	<div class="block__code">
-		<pre><code></code></pre>
-	</div>
-	<ul class="block__tag"></ul>
-	</div>
-	<div class="block"><span class="block__time">2017/06/28</span><span class="block__id">id_00_17</span>
-		<div class="block__view"
-							id="id_00_17">
-			<p><a href="#">button</a></p>
-	</div>
-	<div class="block__code">
-		<pre><code></code></pre>
-	</div>
-	<ul class="block__tag"></ul>
-	</div>
-	</div>
-	</section>
-	<section>
-		<h2>議事要素に手を出す①</h2>
-		<p>ここにsectionのコメントが入ります。2</p>
-		<div class="block__wrapper"></div>
-	</section>
-	</main>
-	</div>
-	<!-- #main-->
-	</div>
-	<!-- #contents-->
-	<a class="js_pagetop pagetop"
-				href="#top">PAGE TOPppppppppp</a>
-		<footer id="footer"
-										role="contentinfo"
-										itemscope="itemscope"
-										itemtype="http://schema.org/WPFooter">
-			<div class="copyright"><small>Copyright&nbsp;2017&nbsp;rtr-x8&nbsp;All&nbsp;Rights&nbsp;Reserved.</small></div>
-			</footer>
-			<!-- /footer#footer-->
+}</code></pre></div>
+								<ul class="block__tag">
+									<li class="block__tag-item">drop-shadow</li>
+								</ul>
+							</div>
+							<div class="block"><span class="block__time">2017/06/28</span><span class="block__id">id_00_16</span>
+								<div class="block__view" id="id_00_16">
+									<p><a href="#">button</a></p>
+								</div>
+								<div class="block__code"><pre><code>a {
+	text-shadow: 0 0 0 rgba(#000, 0.5);
+	transition: 300ms;
+	&:hover {
+		text-shadow: 10px 10px 0 rgba(#000, 0.5);
+	}
+}</code></pre></div>
+								<ul class="block__tag">
+									<li class="block__tag-item">text-shadow</li>
+								</ul>
+							</div>
+							<div class="block"><span class="block__time">2017/06/28</span><span class="block__id">id_00_17</span>
+								<div class="block__view" id="id_00_17">
+									<p><a href="#">button</a></p>
+								</div>
+								<div class="block__code"><pre><code>a {
+	text-shadow: 0 0 0 rgba(#000, 0.5);
+	transition: 300ms;
+	&:hover {
+		color: #fff;
+		text-shadow: 4px    0 8px rgba(#000, 0.5),
+					 4px  4px 8px rgba(#000, 0.5),
+					   0  4px 8px rgba(#000, 0.5),
+					-4px  4px 8px rgba(#000, 0.5),
+					-4px    0 8px rgba(#000, 0.5),
+					-4px -4px 8px rgba(#000, 0.5),
+					   0 -4px 8px rgba(#000, 0.5),
+					-4px    0 8px rgba(#000, 0.5);
+	}
+}</code></pre></div>
+								<ul class="block__tag">
+									<li class="block__tag-item">text-shadow</li>
+								</ul>
+							</div>
+							<div class="block"><span class="block__time">2017/06/28</span><span class="block__id">id_00_18</span>
+								<div class="block__view" id="id_00_18">
+									<p><a href="#">button</a></p>
+								</div>
+								<p class="block__comment">ボタンの押した感<br>あえてtransitionなし</p>
+								<div class="block__code"><pre><code>a {
+	border: 1px solid  black;
+	border-bottom-width: 3px;
+	&:hover {
+		transform: translateY(3px);
+		margin-top: 2px;
+		border-bottom-width: 1px;
+	}
+}</code></pre></div>
+								<ul class="block__tag">
+									<li class="block__tag-item">border</li>
+									<li class="block__tag-item">transform</li>
+								</ul>
+							</div>
+							<div class="block"><span class="block__time">2017/06/28</span><span class="block__id">id_00_19</span>
+								<div class="block__view" id="id_00_19">
+									<p><a href="#">button</a></p>
+								</div>
+								<p class="block__comment">正方形なら50%で正円にできるよね</p>
+								<div class="block__code"><pre><code>a {
+	border: 1px solid  #333;
+	transition: 300ms;
+	&:hover {
+		border-radius: 25px;
+	}
+}</code></pre></div>
+								<ul class="block__tag">
+									<li class="block__tag-item">border-radius</li>
+								</ul>
+							</div>
+							<div class="block"><span class="block__time">2017/06/28</span><span class="block__id">id_00_20</span>
+								<div class="block__view" id="id_00_20">
+									<p><a href="#">button</a></p>
+								</div>
+								<div class="block__code"><pre><code>a {
+	letter-spacing: 0.1em;
+	transition: 300ms;
+	&:hover {
+		letter-spacing: 1em;
+
+		// なくて良い
+		text-indent: 1em;
+	}
+}</code></pre></div>
+								<ul class="block__tag">
+									<li class="block__tag-item">letter-spacing</li>
+								</ul>
+							</div>
+						</div>
+					</section>
+					<section>
+						<h2>議事要素に手を出す①</h2>
+						<p>ここにsectionのコメントが入ります。2</p>
+						<div class="block__wrapper"></div>
+					</section>
+				</main>
 			</div>
-			<!-- #wrapper-->
-			<script src="js/jquery.js"></script>
-			<script src="js/common.min.js"></script>
-			<?php // include('tag.php'); ?>
+			<!-- #main-->
+		</div>
+		<!-- #contents--><a class="js_pagetop pagetop" href="#top">PAGE TOPppppppppp</a>
+		<footer id="footer" role="contentinfo" itemscope="itemscope" itemtype="http://schema.org/WPFooter">
+			<div class="copyright"><small>Copyright&nbsp;2017&nbsp;rtr-x8&nbsp;All&nbsp;Rights&nbsp;Reserved.</small></div>
+		</footer>
+		<!-- /footer#footer-->
+	</div>
+	<!-- #wrapper-->
+	<script src="js/jquery.js"></script>
+	<script src="js/common.min.js"></script>
+	<?php // include('tag.php'); ?>
 </body>
 </html>

@@ -1,0 +1,10 @@
+a {
+	letter-spacing: 0.1em;
+	transition: 300ms;
+	&:hover {
+		letter-spacing: 1em;
+
+		// なくて良い
+		text-indent: 1em;
+	}
+}
