@@ -1,0 +1,19 @@
+a {
+	background: red;
+	&:hover {
+		animation: id_00_26 5000ms linear 0ms infinite alternate-reverse both ;
+	}
+}
+@keyframes id_00_26 {
+	0%   { background: red; }
+	10%  { background: orange; }
+	20%  { background: pink; }
+	30%  { background: green; }
+	40%  { background: skyblue; }
+	50%  { background: brown; }
+	60%  { background: black; }
+	70%  { background: pink; }
+	80%  { background: blue; }
+	90%  { background: yellow; }
+	100% { background: gold; }
+}

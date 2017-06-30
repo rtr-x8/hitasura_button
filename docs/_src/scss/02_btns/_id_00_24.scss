@@ -1,0 +1,7 @@
+a {
+	border: 2px solid  #333;
+	transition: 300ms;
+	&:hover {
+		transform: rotate3d(1,0.5,-0.5,180deg)
+	}
+}

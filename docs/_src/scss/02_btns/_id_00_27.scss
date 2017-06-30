@@ -1,0 +1,24 @@
+$id_00_26_colors: red orange pink skyblue green brown black blue yellow gold palegreen slateblue orangered mediumvioletred chocolate;
+a {
+	border-width: 2px;
+	border-style: solid;
+	border-left-color: #000;
+	border-right-color: #000;
+	border-top-color: #000;
+	border-bottom-color: #000;
+	&:hover {
+		animation: id_00_27 5000ms linear 0ms infinite alternate-reverse both ;
+	}
+}
+@keyframes id_00_27 {
+	@for $i from 1 through 50 {
+		#{$i * 2}% {
+			border: {
+				top-color:    nth($id_00_26_colors, random(length($id_00_26_colors)));
+				right-color:  nth($id_00_26_colors, random(length($id_00_26_colors)));
+				bottom-color: nth($id_00_26_colors, random(length($id_00_26_colors)));
+				left-color:   nth($id_00_26_colors, random(length($id_00_26_colors)));
+			}
+		}
+	}
+}

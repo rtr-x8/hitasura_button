@@ -12,7 +12,7 @@ a{display:block;width:80%;text-decoration:none;text-align:center;padding:1.7rem 
 #id_00_05 a{border:2px solid #00f;background-image:-webkit-linear-gradient(left,transparent 50%,#00f 50%);background-image:linear-gradient(to right,transparent 50%,#00f 50%);background-size:210% auto;background-position:97% 0;-webkit-transition:.3s;transition:.3s}
 #id_00_05 a:hover{background-position:0 0}
 #id_00_06 a{background-image:url(https://unsplash.it/300/50/?gravity=east);background-position:center center;background-repeat:no-repeat;background-size:100% auto;-webkit-transition:.3s;transition:.3s}
-#id_00_06 a:hover{background-size:105% auto}
+#id_00_06 a:hover{background-size:110% auto}
 #id_00_07 p{overflow:hidden}
 #id_00_07 a{background:url(https://unsplash.it/300/50/?gravity=east) center center no-repeat;background-size:cover;-webkit-transition:.3s;transition:.3s}
 #id_00_07 a:hover{-webkit-filter:blur(2px);filter:blur(2px)}
@@ -45,4 +45,144 @@ a{display:block;width:80%;text-decoration:none;text-align:center;padding:1.7rem 
 #id_00_19 a:hover{border-radius:25px}
 #id_00_20 a{letter-spacing:.1em;-webkit-transition:.3s;transition:.3s}
 #id_00_20 a:hover{letter-spacing:1em;text-indent:1em}
+#id_00_21 a{border:2px solid #333;-webkit-transition:.3s;transition:.3s}
+#id_00_21 a:hover{-webkit-transform:skew(-20deg,0);-ms-transform:skew(-20deg,0);transform:skew(-20deg,0)}
+#id_00_22 a{border:2px solid #333;-webkit-transition:.3s;transition:.3s}
+#id_00_22 a:hover{-webkit-transform:scale(1.1);-ms-transform:scale(1.1);transform:scale(1.1)}
+#id_00_23 a{border:2px solid #333;-webkit-transition:.9s;transition:.9s}
+#id_00_23 a:hover{-webkit-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg)}
+#id_00_24 a{border:2px solid #333;-webkit-transition:.3s;transition:.3s}
+#id_00_24 a:hover{-webkit-transform:rotate3d(1,.5,-.5,180deg);transform:rotate3d(1,.5,-.5,180deg)}
+#id_00_25 a{border:2px solid #333;-webkit-transition:.3s;transition:.3s}
+#id_00_25 a:hover{font-size:1.8rem}
+#id_00_26 a{background:red}
+#id_00_26 a:hover{-webkit-animation:id_00_26 5s linear 0s infinite alternate-reverse both;animation:id_00_26 5s linear 0s infinite alternate-reverse both}
+@-webkit-keyframes id_00_26{0%{background:red}
+10%{background:orange}
+20%{background:pink}
+30%{background:green}
+40%{background:#87ceeb}
+50%{background:brown}
+60%{background:#000}
+70%{background:pink}
+80%{background:#00f}
+90%{background:#ff0}
+100%{background:gold}
+}
+@keyframes id_00_26{0%{background:red}
+10%{background:orange}
+20%{background:pink}
+30%{background:green}
+40%{background:#87ceeb}
+50%{background:brown}
+60%{background:#000}
+70%{background:pink}
+80%{background:#00f}
+90%{background:#ff0}
+100%{background:gold}
+}
+#id_00_27 a{border-width:2px;border-style:solid;border-left-color:#000;border-right-color:#000;border-top-color:#000;border-bottom-color:#000}
+#id_00_27 a:hover{-webkit-animation:id_00_27 5s linear 0s infinite alternate-reverse both;animation:id_00_27 5s linear 0s infinite alternate-reverse both}
+@-webkit-keyframes id_00_27{2%{border-top-color:red;border-right-color:#ff0;border-bottom-color:#000;border-left-color:#00f}
+4%{border-top-color:red;border-right-color:green;border-bottom-color:orange;border-left-color:green}
+6%{border-top-color:pink;border-right-color:#87ceeb;border-bottom-color:#00f;border-left-color:#98fb98}
+8%{border-top-color:gold;border-right-color:#ff4500;border-bottom-color:#000;border-left-color:#87ceeb}
+10%{border-top-color:#d2691e;border-right-color:#000;border-bottom-color:#6a5acd;border-left-color:#d2691e}
+12%{border-top-color:brown;border-right-color:pink;border-bottom-color:#ff4500;border-left-color:#ff0}
+14%{border-top-color:#87ceeb;border-right-color:#ff4500;border-bottom-color:#ff4500;border-left-color:pink}
+16%{border-top-color:brown;border-right-color:#98fb98;border-bottom-color:orange;border-left-color:red}
+18%{border-top-color:green;border-right-color:green;border-bottom-color:#000;border-left-color:gold}
+20%{border-top-color:red;border-right-color:#6a5acd;border-bottom-color:orange;border-left-color:#d2691e}
+22%{border-top-color:gold;border-right-color:#00f;border-bottom-color:#87ceeb;border-left-color:pink}
+24%{border-top-color:gold;border-right-color:#ff0;border-bottom-color:brown;border-left-color:red}
+26%{border-top-color:brown;border-right-color:brown;border-bottom-color:pink;border-left-color:orange}
+28%{border-top-color:red;border-right-color:#00f;border-bottom-color:#ff0;border-left-color:red}
+30%{border-top-color:#ff0;border-right-color:pink;border-bottom-color:brown;border-left-color:orange}
+32%{border-top-color:red;border-right-color:pink;border-bottom-color:gold;border-left-color:#d2691e}
+34%{border-top-color:pink;border-right-color:#d2691e;border-bottom-color:gold;border-left-color:#ff0}
+36%{border-top-color:#d2691e;border-right-color:#000;border-bottom-color:#6a5acd;border-left-color:#d2691e}
+38%{border-top-color:green;border-right-color:pink;border-bottom-color:#ff4500;border-left-color:gold}
+40%{border-top-color:gold;border-right-color:gold;border-bottom-color:#98fb98;border-left-color:#6a5acd}
+42%{border-top-color:#000;border-right-color:gold;border-bottom-color:#6a5acd;border-left-color:green}
+44%{border-top-color:#6a5acd;border-right-color:pink;border-bottom-color:orange;border-left-color:pink}
+46%{border-top-color:brown;border-right-color:pink;border-bottom-color:#000;border-left-color:red}
+48%{border-top-color:brown;border-right-color:#000;border-bottom-color:#c71585;border-left-color:#6a5acd}
+50%{border-top-color:#c71585;border-right-color:#98fb98;border-bottom-color:#d2691e;border-left-color:#ff0}
+52%{border-top-color:#ff0;border-right-color:#6a5acd;border-bottom-color:#d2691e;border-left-color:#ff0}
+54%{border-top-color:#ff4500;border-right-color:#d2691e;border-bottom-color:#6a5acd;border-left-color:#98fb98}
+56%{border-top-color:#6a5acd;border-right-color:#c71585;border-bottom-color:red;border-left-color:pink}
+58%{border-top-color:green;border-right-color:gold;border-bottom-color:#ff4500;border-left-color:orange}
+60%{border-top-color:#98fb98;border-right-color:orange;border-bottom-color:#6a5acd;border-left-color:#ff4500}
+62%{border-top-color:#98fb98;border-right-color:#000;border-bottom-color:#ff0;border-left-color:orange}
+64%{border-top-color:green;border-right-color:red;border-bottom-color:red;border-left-color:#d2691e}
+66%{border-top-color:green;border-right-color:#87ceeb;border-bottom-color:green;border-left-color:#6a5acd}
+68%{border-top-color:#87ceeb;border-right-color:brown;border-bottom-color:orange;border-left-color:brown}
+70%{border-top-color:#ff4500;border-right-color:#000;border-bottom-color:#c71585;border-left-color:#ff0}
+72%{border-top-color:#87ceeb;border-right-color:#98fb98;border-bottom-color:red;border-left-color:green}
+74%{border-top-color:orange;border-right-color:#ff4500;border-bottom-color:pink;border-left-color:gold}
+76%{border-top-color:pink;border-right-color:#98fb98;border-bottom-color:#6a5acd;border-left-color:brown}
+78%{border-top-color:pink;border-right-color:red;border-bottom-color:#00f;border-left-color:#98fb98}
+80%{border-top-color:gold;border-right-color:orange;border-bottom-color:brown;border-left-color:#ff4500}
+82%{border-top-color:#ff0;border-right-color:pink;border-bottom-color:#87ceeb;border-left-color:#000}
+84%{border-top-color:#00f;border-right-color:#6a5acd;border-bottom-color:#ff0;border-left-color:#87ceeb}
+86%{border-top-color:#6a5acd;border-right-color:#ff4500;border-bottom-color:#ff0;border-left-color:pink}
+88%{border-top-color:#ff0;border-right-color:#98fb98;border-bottom-color:#ff4500;border-left-color:#000}
+90%{border-top-color:#c71585;border-right-color:#000;border-bottom-color:green;border-left-color:#ff0}
+92%{border-top-color:#00f;border-right-color:red;border-bottom-color:orange;border-left-color:red}
+94%{border-top-color:brown;border-right-color:gold;border-bottom-color:gold;border-left-color:#ff4500}
+96%{border-top-color:orange;border-right-color:green;border-bottom-color:#c71585;border-left-color:#00f}
+98%{border-top-color:#c71585;border-right-color:gold;border-bottom-color:#98fb98;border-left-color:#c71585}
+100%{border-top-color:green;border-right-color:#98fb98;border-bottom-color:green;border-left-color:#d2691e}
+}
+@keyframes id_00_27{2%{border-top-color:red;border-right-color:#ff0;border-bottom-color:#000;border-left-color:#00f}
+4%{border-top-color:red;border-right-color:green;border-bottom-color:orange;border-left-color:green}
+6%{border-top-color:pink;border-right-color:#87ceeb;border-bottom-color:#00f;border-left-color:#98fb98}
+8%{border-top-color:gold;border-right-color:#ff4500;border-bottom-color:#000;border-left-color:#87ceeb}
+10%{border-top-color:#d2691e;border-right-color:#000;border-bottom-color:#6a5acd;border-left-color:#d2691e}
+12%{border-top-color:brown;border-right-color:pink;border-bottom-color:#ff4500;border-left-color:#ff0}
+14%{border-top-color:#87ceeb;border-right-color:#ff4500;border-bottom-color:#ff4500;border-left-color:pink}
+16%{border-top-color:brown;border-right-color:#98fb98;border-bottom-color:orange;border-left-color:red}
+18%{border-top-color:green;border-right-color:green;border-bottom-color:#000;border-left-color:gold}
+20%{border-top-color:red;border-right-color:#6a5acd;border-bottom-color:orange;border-left-color:#d2691e}
+22%{border-top-color:gold;border-right-color:#00f;border-bottom-color:#87ceeb;border-left-color:pink}
+24%{border-top-color:gold;border-right-color:#ff0;border-bottom-color:brown;border-left-color:red}
+26%{border-top-color:brown;border-right-color:brown;border-bottom-color:pink;border-left-color:orange}
+28%{border-top-color:red;border-right-color:#00f;border-bottom-color:#ff0;border-left-color:red}
+30%{border-top-color:#ff0;border-right-color:pink;border-bottom-color:brown;border-left-color:orange}
+32%{border-top-color:red;border-right-color:pink;border-bottom-color:gold;border-left-color:#d2691e}
+34%{border-top-color:pink;border-right-color:#d2691e;border-bottom-color:gold;border-left-color:#ff0}
+36%{border-top-color:#d2691e;border-right-color:#000;border-bottom-color:#6a5acd;border-left-color:#d2691e}
+38%{border-top-color:green;border-right-color:pink;border-bottom-color:#ff4500;border-left-color:gold}
+40%{border-top-color:gold;border-right-color:gold;border-bottom-color:#98fb98;border-left-color:#6a5acd}
+42%{border-top-color:#000;border-right-color:gold;border-bottom-color:#6a5acd;border-left-color:green}
+44%{border-top-color:#6a5acd;border-right-color:pink;border-bottom-color:orange;border-left-color:pink}
+46%{border-top-color:brown;border-right-color:pink;border-bottom-color:#000;border-left-color:red}
+48%{border-top-color:brown;border-right-color:#000;border-bottom-color:#c71585;border-left-color:#6a5acd}
+50%{border-top-color:#c71585;border-right-color:#98fb98;border-bottom-color:#d2691e;border-left-color:#ff0}
+52%{border-top-color:#ff0;border-right-color:#6a5acd;border-bottom-color:#d2691e;border-left-color:#ff0}
+54%{border-top-color:#ff4500;border-right-color:#d2691e;border-bottom-color:#6a5acd;border-left-color:#98fb98}
+56%{border-top-color:#6a5acd;border-right-color:#c71585;border-bottom-color:red;border-left-color:pink}
+58%{border-top-color:green;border-right-color:gold;border-bottom-color:#ff4500;border-left-color:orange}
+60%{border-top-color:#98fb98;border-right-color:orange;border-bottom-color:#6a5acd;border-left-color:#ff4500}
+62%{border-top-color:#98fb98;border-right-color:#000;border-bottom-color:#ff0;border-left-color:orange}
+64%{border-top-color:green;border-right-color:red;border-bottom-color:red;border-left-color:#d2691e}
+66%{border-top-color:green;border-right-color:#87ceeb;border-bottom-color:green;border-left-color:#6a5acd}
+68%{border-top-color:#87ceeb;border-right-color:brown;border-bottom-color:orange;border-left-color:brown}
+70%{border-top-color:#ff4500;border-right-color:#000;border-bottom-color:#c71585;border-left-color:#ff0}
+72%{border-top-color:#87ceeb;border-right-color:#98fb98;border-bottom-color:red;border-left-color:green}
+74%{border-top-color:orange;border-right-color:#ff4500;border-bottom-color:pink;border-left-color:gold}
+76%{border-top-color:pink;border-right-color:#98fb98;border-bottom-color:#6a5acd;border-left-color:brown}
+78%{border-top-color:pink;border-right-color:red;border-bottom-color:#00f;border-left-color:#98fb98}
+80%{border-top-color:gold;border-right-color:orange;border-bottom-color:brown;border-left-color:#ff4500}
+82%{border-top-color:#ff0;border-right-color:pink;border-bottom-color:#87ceeb;border-left-color:#000}
+84%{border-top-color:#00f;border-right-color:#6a5acd;border-bottom-color:#ff0;border-left-color:#87ceeb}
+86%{border-top-color:#6a5acd;border-right-color:#ff4500;border-bottom-color:#ff0;border-left-color:pink}
+88%{border-top-color:#ff0;border-right-color:#98fb98;border-bottom-color:#ff4500;border-left-color:#000}
+90%{border-top-color:#c71585;border-right-color:#000;border-bottom-color:green;border-left-color:#ff0}
+92%{border-top-color:#00f;border-right-color:red;border-bottom-color:orange;border-left-color:red}
+94%{border-top-color:brown;border-right-color:gold;border-bottom-color:gold;border-left-color:#ff4500}
+96%{border-top-color:orange;border-right-color:green;border-bottom-color:#c71585;border-left-color:#00f}
+98%{border-top-color:#c71585;border-right-color:gold;border-bottom-color:#98fb98;border-left-color:#c71585}
+100%{border-top-color:green;border-right-color:#98fb98;border-bottom-color:green;border-left-color:#d2691e}
+}
 /*# sourceMappingURL=maps/btn.css.map */
