@@ -1,0 +1,8 @@
+a {
+	background: linear-gradient(transparent 80%, red 20%);
+	background-size: 0 auto;
+	transition: 600ms linear;
+	&:hover {
+		background-size: 100% auto;
+	}
+}

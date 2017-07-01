@@ -1,0 +1,19 @@
+a {
+	transition: 300ms;
+	box-shadow: 0 0 8px 6px #ddd;
+	&:hover {
+		animation: id_00_28 1000ms linear 0ms infinite normal;
+	}
+}
+
+@keyframes id_00_28 {
+	#{100 / 8 * 0}% {box-shadow:  0px -5px 8px 6px #ddd;}
+	#{100 / 8 * 1}% {box-shadow:  5px -5px 8px 6px #ddd;}
+	#{100 / 8 * 2}% {box-shadow:  5px  0px 8px 6px #ddd;}
+	#{100 / 8 * 3}% {box-shadow:  5px  5px 8px 6px #ddd;}
+	#{100 / 8 * 4}% {box-shadow:  0px  5px 8px 6px #ddd;}
+	#{100 / 8 * 5}% {box-shadow: -5px  5px 8px 6px #ddd;}
+	#{100 / 8 * 6}% {box-shadow: -5px  0px 8px 6px #ddd;}
+	#{100 / 8 * 7}% {box-shadow: -5px -5px 8px 6px #ddd;}
+	#{100 / 8 * 8}% {box-shadow:  0px -5px 8px 6px #ddd;}
+}

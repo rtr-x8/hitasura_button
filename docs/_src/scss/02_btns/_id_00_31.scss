@@ -1,0 +1,13 @@
+a {
+	background: linear-gradient(right, #ff6666 10%, #ff9900 20%, #ffcc00 30%, #99cc00 40%, #66cc66 50%, #00cccc 60%, #3399ff 70%, #9966ff 80%, #cc66cc 90%, #ff6699 100%);
+	background-repeat: repeat;
+	background-size: 1000% auto;
+	transition: 1000ms;
+	&:hover {
+		animation: id_00_31 20s linear 0ms infinite normal;
+	}
+}
+@keyframes id_00_31 {
+	0%   {background-position: 0 0;}
+	100% {background-position: 1000% 0;}
+}

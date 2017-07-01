@@ -1,0 +1,11 @@
+a {
+	outline: 3px solid red;
+	border: 6px groove  blue;
+	box-shadow: 0 0 0px 7px pink;
+	transition: 300ms;
+	&:hover {
+		outline-color: pink;
+		border-color: red;
+		box-shadow: 0 0 0px 7px red;
+	}
+}
